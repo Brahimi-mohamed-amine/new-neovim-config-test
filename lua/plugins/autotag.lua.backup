@@ -1,0 +1,11 @@
+return {
+  {
+    "windwp/nvim-ts-autotag",
+    event = "InsertEnter",
+    ft = { "html", "xml", "javascript", "typescript", "typescriptreact", "php", "javascriptreact" },
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    config = function()
+      -- nothing to configure here, it’s enabled via treesitter
+    end,
+  },
+}
